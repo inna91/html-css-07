@@ -229,6 +229,10 @@ ul {
   margin-bottom: 30px;
   height: 52px;
   padding-left: 20px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(119, 119, 119);
 }
 
 .contact-form-section input::placeholder {
@@ -243,17 +247,13 @@ ul {
   border: 3px;
 }
 
-.contact-form-section
-  input[type='text']:required:focus:valid:not(:placeholder-shown),
-.contact-form-section
-  input[type='email']:required:focus:valid:not(:placeholder-shown) {
+.contact-form-section input[type='text']:required:focus:valid:not(:placeholder-shown),
+.contact-form-section input[type='email']:required:focus:valid:not(:placeholder-shown) {
   outline-color: rgb(0, 128, 0);
 }
 
-.contact-form-section
-  input[type='text']:required:focus:invalid:not(:placeholder-shown),
-.contact-form-section
-  input[type='email']:required:focus:invalid:not(:placeholder-shown) {
+.contact-form-section input[type='text']:required:focus:invalid:not(:placeholder-shown),
+.contact-form-section input[type='email']:required:focus:invalid:not(:placeholder-shown) {
   outline-color: rgb(255, 0, 0);
 }
 
